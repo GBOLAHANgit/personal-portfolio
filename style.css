@@ -1,0 +1,80 @@
+*{
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+body {font-family: 'Courier New', Courier, monospace;}
+
+nav{background-color: rgb(118, 184, 241);
+    height: 50px;
+    width:100%;
+
+
+}
+label.logo{ color:white;
+            padding: 0px ;
+            font-size: 25px;
+            font-weight: bold;ßß
+            line-height: 50px;
+}
+nav ul {float: right;
+        margin-right: 40px;
+}
+nav ul li {display:inline-block;
+           margin: 0 5px;
+           padding-top: 10px;
+}
+nav ul a {color: white;
+         font-size: medium;
+          padding:7px 13px ;
+          border-radius: 10px;
+          text-transform: uppercase;
+}
+a.home,a:hover{background-color:crimson;
+               transition: .5s;
+}
+
+section {background-color: aliceblue;
+        width: 80%;
+        height: 400px;
+        margin:20px 60px;
+        padding-top: 10px;
+        padding-left: 10px;
+        border-radius: 30px;
+        
+}
+section p.intro{font-size: 29px;
+                color: brown;
+                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                 position: static;
+           
+        
+           
+}
+
+
+section p{font-size: 20px;
+          padding: 10px 10px;
+
+}
+section img{float: right;
+            width:  500px;
+            height: 380px;
+            padding-top: 20px;
+            padding-right: 60px;
+            
+}
+ section p span{color: brown;
+                font-size: 40px;
+                font-family: 'Times New Roman', Times, serif;
+
+}
+section.skills dl{background-color: antiquewhite;
+                  width: 100px;
+                  height: 200px;
+
+
+}
